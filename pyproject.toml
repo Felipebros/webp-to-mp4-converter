@@ -5,9 +5,13 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "git-filter-repo>=2.47.0",
     "moviepy>=2.2.1",
     "numpy>=2.4.2",
     "pillow>=11.3.0",
+]
+
+[dependency-groups]
+dev = [
+    "git-filter-repo>=2.47.0",
     "ruff>=0.15.1",
 ]
